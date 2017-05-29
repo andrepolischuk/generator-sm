@@ -1,0 +1,57 @@
+{
+  "name": "generator-sm",
+  "version": "0.0.0",
+  "description": "Simple generator for node and browser modules",
+  "main": "app/index.js",
+  "files": [
+    "app"
+  ],
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "standard && ava",
+    "postpublish": "git push --follow-tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrepolischuk/generator-sm.git"
+  },
+  "keywords": [
+    "yeoman-generator",
+    "scaffold",
+    "es6",
+    "ES2015",
+    "node",
+    "browser",
+    "module",
+    "standard"
+  ],
+  "author": "Andrey Polischuk <me@andrepolischuk.com> (https://andrepolischuk.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andrepolischuk/generator-sm/issues"
+  },
+  "homepage": "https://github.com/andrepolischuk/generator-sm#readme",
+  "dependencies": {
+    "gh-user": "^2.2.0",
+    "github-username": "^3.0.0",
+    "spawn-sync": "^1.0.15",
+    "to-camel-case": "^1.0.0",
+    "to-slug-case": "^1.0.0",
+    "yeoman-generator": "^1.0.0"
+  },
+  "devDependencies": {
+    "ava": "^0.17.0",
+    "pify": "^2.3.0",
+    "rimraf": "^2.5.4",
+    "standard": "^10.0.2",
+    "yeoman-assert": "^2.2.1",
+    "yeoman-test": "^1.1.0"
+  },
+  "standard": {
+    "ignore": [
+      "**/templates"
+    ]
+  }
+}
