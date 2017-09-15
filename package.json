@@ -1,6 +1,6 @@
 {
   "name": "generator-sm",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Simple generator for node and browser modules",
   "main": "app/index.js",
   "files": [
