@@ -11,9 +11,9 @@ npm install --save <%= name %>
 ## Usage
 
 ```js
-var <%= camelName %> = require('<%= name %>');
+import <%= camelName %> from '<%= name %>'
 
-<%= camelName %>('world'); // Hello world
+<%= camelName %>('world') // Hello world
 ```
 
 ## API
